@@ -1,7 +1,6 @@
-package Composite;
+package Bank;
 
-public class CompositeAccount extends Component
-{
+public class CompositeAccount extends Component {
     private float totalBalance;
     private AccountStatement compositeStmt, individualStmt;
 

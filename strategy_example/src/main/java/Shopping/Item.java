@@ -1,4 +1,4 @@
-package Strategy;
+package Shopping;
 
 public class Item {
 

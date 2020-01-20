@@ -1,12 +1,13 @@
-package Composite;
+package Bank;
 
-public class DepositAccount extends Component {
+public class SavingsAccount extends Component
+{
     private String accountNo;
     private float accountBalance;
 
     private AccountStatement currentStmt;
 
-    public DepositAccount(String accountNo, float accountBalance) {
+    public SavingsAccount(String accountNo, float accountBalance) {
         super();
         this.accountNo = accountNo;
         this.accountBalance = accountBalance;

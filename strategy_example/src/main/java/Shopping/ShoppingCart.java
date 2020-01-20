@@ -1,5 +1,4 @@
-package Strategy;
-import java.text.DecimalFormat;
+package Shopping;
 import java.util.ArrayList;
 import java.util.List;
 

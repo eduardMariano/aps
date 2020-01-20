@@ -1,4 +1,4 @@
-package Composite;
+package Bank;
 
 public class Client {
     public static void main(String[] args) {
@@ -15,5 +15,6 @@ public class Client {
         System.out.println("Total Balance : " + totalBalance);
 
         AccountStatement mergedStatement = component.getStatement();
+        System.out.println("Merged Statement : " + mergedStatement);
     }
 }
