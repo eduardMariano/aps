@@ -12,10 +12,10 @@ public class Test {
         cart.addItem(item2);
 
         //pay by paypal
-        cart.pay(new Paypal("eduardobarros@example.com", "7569841320"));
+        cart.pay(new Paypal("davileao@example.com", "7569841320"));
 
         //pay by credit card
-        cart.pay(new CreditCard("Eduardo Barros", "1234567890123456", "786", "12/15"));
+        cart.pay(new CreditCard("Davi Leão", "1234567890123456", "786", "12/15"));
     }
 
 }
